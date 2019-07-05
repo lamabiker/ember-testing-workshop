@@ -1,0 +1,14 @@
+{{ui-text-input placeholderText="Name" value=name}}
+
+  <br>
+  <br>
+
+  {{ui-text-input
+      leadIcon="calendar"
+      value=dob
+      placeholderText="Date of birth dd-mm-yyyy"}}
+
+  <br>
+  <br>
+
+  {{ui-button label="Submit" click=(action "checkForm")}}
